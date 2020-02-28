@@ -197,7 +197,7 @@ permalink: /
         </div>
         {% endif %}
       </div> -->
-      <div class="col-md-6",align="center">
+     <div class="col-md-6">
         {% if site.data.testimonials.size > 0 %}
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
@@ -207,8 +207,8 @@ permalink: /
                 <p>{{ tm.testimonial }}</p>
                 <div class="user">
                   <img src="{{ tm.image }}" alt="Pepole">
-                   
                   <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                </div>
             </div>
             {% endfor %}
           </div>
@@ -216,5 +216,5 @@ permalink: /
         {% endif %}
       </div>
     </div>
-  </div> 
+  </div>
 </section>
