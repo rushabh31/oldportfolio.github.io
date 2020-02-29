@@ -1,4 +1,11 @@
-# Object Model Evaluation Tool (OMET) <img src="https://github.com/vnsny-bia/Model-Evaluation-Tool/blob/master/hexsticker.png" width="180" height="200" align="right"/>
+---
+layout: page
+title: OMET
+
+---
+
+# Object Model Evaluation Tool (OMET) 
+<img src="https://raw.githubusercontent.com/rushabh31/rushabh31.github.io/master/img/portfolio/omet-hex.png" width="180" height="200" align="right"/>
 
 <br> 
 
@@ -20,4 +27,3 @@ Lastly, users can generate and download an out-of-the-box R Markdown report of t
 
 <br>
 
-<b>Application URL:</b>  [Link](http://analyw0301.vnsny.org:3939/content/362/). 
