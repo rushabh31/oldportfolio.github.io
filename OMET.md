@@ -1,8 +1,13 @@
 ---
 layout: page
 title: OMET
-
+common-js:
+  - "/js/particles.min.js"
+  - "/js/particles-config.js"
+common-css:
+  - "/css/particles-css.css"
 ---
+<div id="particles-js"></div>
 
 # Object Model Evaluation Tool (OMET) 
 <img src="https://raw.githubusercontent.com/rushabh31/rushabh31.github.io/master/img/portfolio/omet-hex.png" width="180" height="200" align="right"/>
