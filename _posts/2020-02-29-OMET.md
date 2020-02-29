@@ -1,0 +1,23 @@
+# Object Model Evaluation Tool (OMET) <img src="https://github.com/vnsny-bia/Model-Evaluation-Tool/blob/master/hexsticker.png" width="180" height="200" align="right"/>
+
+<br> 
+
+With the increasing accessibility of advanced machine learning algorithms, it has become increasingly easier for data scientists to build predictive models.  Labeling predictions is a critical step of model deployment process.  Health care organizations often expend additional costs to target interventions to high risk patients identified by a predictive model.  The data scientist should weigh the cost of a false positive against the cost savings of achieving the desired outcome for true positives.   There is a gap in the analytical tools available to data scientists that make utility based decisions integrated into their workflows. 
+The Objective Model Evaluation Tool (OMET) is a Shiny application that automates model performance evaluation with a user interface designed for collaboration between data scientist and stakeholders. The tool gathers a comprehensive set of summary statistics and visualizations in an interactive web application, and displays model evaluation elements in separate tabs arranged by the level of interpretation required by the user. In addition to a rich selection of evaluation metrics, the tool allows users to classify prediction results by any number of strata. 
+A distinguishing feature of the OMET is the functionality to translate model performance into business context. The tool estimates a model’s potential gain/loss by applying a decision theory utility function and allowing the user to input weights for each outcome. This plays an important role in maximizing the real-world utility of a given model and tailoring models to individual business cases. 
+Lastly, users can generate and download an out-of-the-box R Markdown report of the model performance summary. Combined with the interactive features of the tool, the report serves as an effective medium for data scientists to document, communicate, and present the performance of a given model to both internal and external audiences
+
+
+## Input Parameters
+
+* CSV File with 2 Columns.
+  * Actual Outcome - This should contain the true targets for test dataset. 
+    E.g. Patients who actually went to the hospital in the last 30 days and patient who didn't.
+  * Risk Propensity - This should contain the risk scores for test dataset obtained using Predictive Model Object.
+  
+* Predictive Model Object- Supported File Formats are .Rda/.Rds/.RData
+
+
+<br>
+
+<b>Application URL:</b>  [Link](http://analyw0301.vnsny.org:3939/content/362/). 
