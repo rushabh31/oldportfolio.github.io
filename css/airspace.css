@@ -104,19 +104,6 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 
-.link-3 {
-  transition: 0.4s;
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 0 10px;
-  margin: 0 10px;
-}
-.link-3:hover {
-  background-color: black;
-  color: #769aad;
-  padding: 24px 10px;
-}
 
 /*---------------------------------------------
 					Index Start
