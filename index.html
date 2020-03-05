@@ -208,10 +208,10 @@ permalink: /
             {% for tm in site.data.testimonials %}
             <div>
                 <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
+                <p class="comments">{{ tm.testimonial }}</p>
                 <div class="user">
                   <img src="{{ tm.image }}" alt="Pepole">
-                  <p class="comments"><span>{{ tm.name }}</span> {{ tm.title }}</p>
+                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
                 </div>
             </div>
             {% endfor %}
