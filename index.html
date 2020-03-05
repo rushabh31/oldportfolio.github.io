@@ -206,9 +206,9 @@ permalink: /
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             {% for tm in site.data.testimonials %}
-            <div>
+            <div class="comments">
                 <img src="img/cotation.png" alt="IMG">
-                <p class="comments">{{ tm.testimonial }}</p>
+                <p>{{ tm.testimonial }}</p>
                 <div class="user">
                   <img src="{{ tm.image }}" alt="Pepole">
                   <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
