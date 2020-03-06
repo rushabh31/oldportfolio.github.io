@@ -284,11 +284,6 @@ background-color: black;
   padding: 10px 20px;
 }
 
-@media screen and (max-width: 767px){   
-    #feature{      
-        content:url("img/slider-bg.jpg");
-    } 
-}
 
 /*--
 	content Start
