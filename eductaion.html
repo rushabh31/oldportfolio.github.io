@@ -4,25 +4,218 @@ title: Education
 permalink: /education/
 ---
 
-<!-- Include the library. -->
-<script
-  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-</script>
+<section id="global-header">
+   
+     <div class="container">
+      <div class="row">
+           <script src="/js/typed.js" type="text/javascript"></script>
+           <script>
+              $(function(){
+                $(".typed").typed({
+                  strings: ["Bachelors in Technology.","MS in Computer Science"," PhD."],
+                  typeSpeed: 100,
+                  loop: true,
+                  backDelay: 1000
 
-<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+                });
+              });
+            </script>
 
-<!-- Prepare a container for your calendar. -->
-<div class="calendar">
-    <!-- Loading stuff -->
-    Loading the data just for you.
-</div>
+          
+            <div class="row">
+              <div class="col-sm-12">
+                <!--<div class="text-center"> -->
+                    <b>
+                      <h1 class="animated fadeInUp" 
+                          style="padding-right:100px; text-align:left; text-indent: -100px;"> 
+                          <span class="typed" style="color:#769aad;"></span>
+                      </h1>
+                    </b>
+               <!-- </div> -->
+              </div>
+            </div>
+          
+          <!--<h1 class="animated fadeInUp">Hi, I am Rushabh Patel</h1>
+          <p class="animated fadeInUp">Welcome to my website.</p>-->
+        </div>
+      </div>
+    <!--</div>
+  </div>-->
+    
+</section>
+    <!-- Portfolio Start -->
+<section id="portfolio-work">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="portfolio-menu">
+                <ul>
+                    <li class="filter" data-filter="all">Education</li>
+                    
+                </ul>
+              </div>
+              <div class="portfolio-contant">
+                <ul id="portfolio-contant-active">
+                  
+                    <li class="mix Websites">
+                      <a href="{{'/OMET' | prepend:site.baseurl}}">
+                        <img src="{{ site.baseurl }}/img/education/btech_symbi.png" style="width:365px;height:300px;">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>Bachelors in Technology - Computer Science (B.Tech)</h2>
+                            <p>I have completed my undergraduate from Symbiosis International University based in Pune, India. I was enrolled in this program from 2011-2015. </p>
 
-<script>
-    GitHubCalendar(".calendar", "rushabh31);
-    // or enable responsive functionality:
-    GitHubCalendar(".calendar", "rushabh31", { responsive: true });
-</script>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                    
+                    <li class="mix Websites">
+                      <a href="{{'/OMET' | prepend:site.baseurl}}">
+                        <img src="{{ site.baseurl }}/img/education/ui_ms.png" style="width:365px;height:300px;">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>Masters of Science - Computer Science (MS)</h2>
+                            <p>I have completed my masters from University of Illinois with 4.0/4.0 GPA and Honors degree. I was enrolled in this program from Jan 2016-May 2017. </p>
+
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  
+                  <li class="mix Websites">
+                      <a href="{{'/OMET' | prepend:site.baseurl}}">
+                        <img src="{{ site.baseurl }}/img/education/pace_phd.png" style="width:365px;height:300px;">
+                        <div class="overly">
+                          <div class="position-center">
+                            <h2>Doctor of Philosophy- Computer Science (PhD)</h2>
+                            <p>I am currently pursuing PhD from pace university and expected to graduate in Dec 2022. </p>
+
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                       
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!-- Clients Logo Section Start -->
+<!--<section id="clients-logo-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div id="clients-logo" class="owl-carousel">
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/jupyter_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/ggplot_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/plumber_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/highchart_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/shap_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/shiny_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/sqlserver_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/spark_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/oracledb_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/r_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/python_small.png" alt="Features">
+            </div>
+            <div class="clients-logo-img">
+              <img src="{{ site.baseurl }}/img/clients/scala_small.png" alt="Features">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <section id="clients-logo-section">
+              <div style='width:100%'>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="block">
+                      <div id="clients-logo" class="owl-carousel">
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/jupyter.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/h2ologo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/plumber.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/highcharter.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/redshiftlogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/rshinylogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/portfolio/tableaulogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/sparklogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/sqllogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/rlogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/pythonlogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                        <div class="clients-logo-img">
+                          <img src="{{ site.baseurl }}/img/clients/scalalogo.png" alt="Features" style="width:200px;height:200px;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+          <!--<h2>We design delightful digital experiences.</h2>
+          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
+          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>-->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
