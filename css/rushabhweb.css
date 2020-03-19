@@ -116,7 +116,7 @@ nav.shift ul li a {
   z-index: 1;
 }
 nav.shift ul li a:hover {
-  color: #91640F;
+  color: #84b9d4;
 }
 nav.shift ul li a:after {
   display: block;
@@ -130,7 +130,7 @@ nav.shift ul li a:after {
   height: 1px;
   content: '.';
   color: transparent;
-  background: #F1C40F;
+  background: #84b9d4;
   visibility: none;
   opacity: 0;
   z-index: -1;
