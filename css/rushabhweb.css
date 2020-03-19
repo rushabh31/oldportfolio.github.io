@@ -102,6 +102,13 @@ background-color: black;
 }
 */
 
+nav {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 0;
+    font-size:20px;
+}
 
 /* SHIFT */
 nav.shift ul li a {
