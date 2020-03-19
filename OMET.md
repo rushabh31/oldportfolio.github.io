@@ -1,12 +1,8 @@
 ---
 layout: page
 title: OMET
-common-js:
-  - "/js/particles.min.js"
-  - "/js/particles-config.js"
-common-css:
-  - "/css/particles-css.css"
 ---
+
 <div id="particles-js"></div>
 
 # Object Model Evaluation Tool (OMET) 
