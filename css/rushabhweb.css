@@ -130,6 +130,12 @@ nav ul li a:after,
 nav ul li a:before {
   transition: all .5s;
 }
+
+nav ul li a:active {
+  background: #aaa;
+
+  
+}
 nav ul li a:hover {
   color: #555;
 }
