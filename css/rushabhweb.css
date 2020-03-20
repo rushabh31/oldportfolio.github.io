@@ -108,6 +108,7 @@ nav {
   background: #fff;
   padding: 20px 0;
   font-size:medium;
+  float:right;
 }
 nav ul {
   list-style: none;
