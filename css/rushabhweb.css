@@ -138,6 +138,15 @@ nav ul li a:active {
 
   
 }
+
+nav.fill ul li a:active {
+  display: block;
+  background-color: black !important;
+
+  
+}
+
+
 nav ul li a:hover {
   color: #080808;
 }
