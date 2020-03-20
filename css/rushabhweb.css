@@ -133,7 +133,8 @@ nav ul li a:before {
 }
 
 nav ul li a:active {
-  background: #aaa;
+  display: block;
+  background-color: #aaa !important;
 
   
 }
