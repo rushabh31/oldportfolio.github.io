@@ -4,9 +4,7 @@ title: OMET
 ---
 
 
-# Object Model Evaluation Tool (OMET) 
-<img src="https://raw.githubusercontent.com/rushabh31/rushabh31.github.io/master/img/portfolio/omet-hex.png" width="180" height="200" align="right"/>
-
+# Object Model Evaluation Tool (OMET)  <img src="https://raw.githubusercontent.com/rushabh31/rushabh31.github.io/master/img/portfolio/omet-hex.png" width="180" height="200" align="right"/>
 <br> 
 
 With the increasing accessibility of advanced machine learning algorithms, it has become increasingly easier for data scientists to build predictive models.  Labeling predictions is a critical step of model deployment process.  Health care organizations often expend additional costs to target interventions to high risk patients identified by a predictive model.  The data scientist should weigh the cost of a false positive against the cost savings of achieving the desired outcome for true positives.   There is a gap in the analytical tools available to data scientists that make utility based decisions integrated into their workflows. 
