@@ -131,20 +131,6 @@ nav ul li a:before {
   transition: all .5s;
 }
 
-nav ul li a:active {
-  display: block;
-  background-color: #aaa !important;
-
-  
-}
-
-nav.fill ul li a:active {
-  display: block;
-  background-color: black !important;
-
-  
-}
-
 
 nav ul li a:hover {
   color: #080808;
