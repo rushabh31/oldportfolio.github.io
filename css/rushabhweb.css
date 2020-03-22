@@ -181,6 +181,25 @@ nav.fill ul li a:hover:after {
   opacity: 1;
 }
 
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: #151212;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 4px;
+    background-color: #84b9d4;
+}
+
 /* Keyframes */
 @-webkit-keyframes fill {
   0% {
