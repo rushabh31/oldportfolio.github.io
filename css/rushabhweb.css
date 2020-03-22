@@ -250,7 +250,7 @@ nav.fill ul li a:hover:after {
   z-index: 1000;
 }
 .nav a:hover {
-  color: #FFF !important;
+  color: #000000 !important;
 }
 .nav li {
   position: relative;
