@@ -227,7 +227,7 @@ nav.fill ul li a:hover:after {
   border-radius: 0 3px 3px 0;
 }
 .Nav-item.is-active a {
-  color: #e82d00;
+  color: #7daac1;
 }
 .Nav-item a {
   color: #121212;
@@ -237,7 +237,7 @@ nav.fill ul li a:hover:after {
   text-decoration: none;
 }
 .Nav-item a:hover {
-  color: #e82d00;
+  color: #7daac1;
 }
 
 .with-indicator {
@@ -254,7 +254,7 @@ nav.fill ul li a:hover:after {
 }
 .with-indicator .Nav-item:last-child:before {
   border: 6px solid transparent;
-  border-top-color: #e82d00;
+  border-top-color: #7daac1;
   width: 0;
   height: 0;
   top: 0;
@@ -262,7 +262,7 @@ nav.fill ul li a:hover:after {
   margin-left: -3px;
 }
 .with-indicator .Nav-item:last-child:after {
-  background: #e82d00;
+  background: #7daac1;
   top: -6px;
   bottom: -6px;
   left: 0;
