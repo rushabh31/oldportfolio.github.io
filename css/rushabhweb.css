@@ -218,6 +218,7 @@ nav.fill ul li a:hover:after {
   padding: 0;
   width: 20%;
   text-align: center;
+  font-size:medium;
 }
 .Nav-item:first-child {
   border-radius: 3px 0 0 3px;
