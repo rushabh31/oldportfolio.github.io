@@ -308,6 +308,8 @@ nav.fill ul li a:hover:after {
   }
 }
 
+
+
 /*---------------------------------------------
 					Index Start
 -----------------------------------------------*/
@@ -1010,7 +1012,7 @@ nav.fill ul li a:hover:after {
 	footer Start
 --*/
 footer {
-  background: #F5F5F5;
+  background: #ffffff;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -1018,10 +1020,10 @@ footer {
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #919191;
+  color: #ffffff;
 }
 footer a {
-  color: #595959;
+  color: #ffffff;
 }
 footer .footer-manu {
   padding-bottom: 25px;
