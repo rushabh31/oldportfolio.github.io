@@ -288,7 +288,7 @@ nav.fill ul li a:hover:after {
   top: 0px;
   left: 0px;
   background: #84b9d4 !important;
-  color: #ffffff;
+  color: #000000;
   z-index: 0;
   opacity: 0;
 }
