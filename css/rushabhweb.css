@@ -310,6 +310,10 @@ nav.fill ul li a:hover:after {
 */
 
 /* basic menu styles */
+.navbar-inverse{
+  background:#222B31 !important;
+  border-bottom:4px solid #EE445F !important;
+}
 .block-menu {
 	display: block;
 	background: #141415;
