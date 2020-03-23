@@ -496,6 +496,7 @@ nav.fill ul li a:hover:after {
 --*/
 #intro {
   padding: 100px 0;
+  background-color:#1d1e1f;
 }
 #intro .block h2 {
   padding-top: 35px;
