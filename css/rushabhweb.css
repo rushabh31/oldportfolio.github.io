@@ -311,12 +311,12 @@ nav.fill ul li a:hover:after {
 
 /* basic menu styles */
 .navbar-inverse{
-  background:#141415 !important;
+  background:#1d1e1f !important;
   border-bottom:4px solid #EE445F !important;
 }
 .block-menu {
 	display: block;
-	background: #141415;
+	background: #1d1e1f;
 	float:right;
 }
 
@@ -383,7 +383,7 @@ nav.fill ul li a:hover:after {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #141415;
+	background: #1d1e1f;
 	padding: 15px 10px;
 	color: white;
 	pointer-events: none;
@@ -391,7 +391,7 @@ nav.fill ul li a:hover:after {
 }
 
 .back {
-  background: #141415;
+  background: #1d1e1f;
 }
 
 
