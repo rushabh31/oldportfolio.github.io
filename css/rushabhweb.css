@@ -1096,7 +1096,7 @@ nav.fill ul li a:hover:after {
 	footer Start
 --*/
 footer {
-  background: #131314;
+  background: #000;
   text-align: center;
   padding-top: 48px;
   padding-bottom: 55px;
@@ -1104,10 +1104,10 @@ footer {
 footer p {
   font-size: 13px;
   line-height: 25px;
-  color: #ffffff;
+  color: #EE445F;
 }
 footer a {
-  color: #ffffff;
+  color: #EE445F;
 }
 footer .footer-manu {
   padding-bottom: 25px;
