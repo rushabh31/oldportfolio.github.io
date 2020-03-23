@@ -313,7 +313,6 @@ nav.fill ul li a:hover:after {
 .block-menu {
 	display: block;
 	background: #000;
-margin-top: 50px;
 }
 
 .block-menu li {
@@ -329,7 +328,7 @@ margin-top: 50px;
 	text-transform: uppercase;
 	overflow: visible;
 	line-height: 20px;
-	font-size: 24px;
+	font-size: 17px;
 	padding: 15px 10px;
 }
 
