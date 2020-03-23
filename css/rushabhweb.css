@@ -312,7 +312,7 @@ nav.fill ul li a:hover:after {
 /* basic menu styles */
 .block-menu {
 	display: block;
-	background: #000;
+	background: #141415;
 	float:right;
 }
 
@@ -387,7 +387,7 @@ nav.fill ul li a:hover:after {
 }
 
 .back {
-  background: #222;
+  background: #141415;
 }
 
 /*---------------------------------------------
