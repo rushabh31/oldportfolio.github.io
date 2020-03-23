@@ -496,17 +496,14 @@ nav.fill ul li a:hover:after {
 --*/
 #intro {
   padding: 100px 0;
-  background-color:#1d1e1f;
 }
 #intro .block h2 {
-  color:#fff;
   padding-top: 35px;
   line-height: 27px;
   margin: 0;
 }
 #intro .block p {
-  /*color: #7B7B7B;*/
-  color:#fff;
+  color: #7B7B7B;
   padding-top: 20px;
 }
 #intro .block img {
@@ -779,8 +776,6 @@ nav.fill ul li a:hover:after {
 #portfolio-work {
   overflow: hidden;
   padding: 80px 0;
-  background-color:#1d1e1f;
-
 }
 #portfolio-work .block .portfolio-menu {
   padding-bottom: 30px;
@@ -790,7 +785,6 @@ nav.fill ul li a:hover:after {
   border: 1px solid #999999;
   display: inline-block;
   margin-bottom: 40px;
-  background-color:#fff;
 }
 #portfolio-work .block .portfolio-menu ul li {
   display: inline-block;
