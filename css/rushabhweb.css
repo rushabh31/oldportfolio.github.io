@@ -383,7 +383,7 @@ nav.fill ul li a:hover:after {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: blue;/*#1d1e1f;*/
+	background:#1d1e1f;
 	padding: 15px 10px;
 	color: white;
 	pointer-events: none;
