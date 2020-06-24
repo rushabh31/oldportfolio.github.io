@@ -50,31 +50,22 @@ permalink: /contact/
 <section id="contact-form">
   <div class="container">
     <div class="column">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form action="https://formspree.io/xrgyazdn" method="POST">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-          </form>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <form action="https://formspree.io/xrgyazdn" method="POST">
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
-        </div>
-      </div>
+      <form
+  action="https://formspree.io/xrgyazdn"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="text" name="_replyto">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+
+  <button type="submit">Send</button>
+</form>
     </div>
     <div id="contact-box" class="column">
       <div class="col-md-6 col-sm-12">
